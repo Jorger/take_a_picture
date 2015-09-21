@@ -1,0 +1,172 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: 'Lobster', cursive;
+    background-color: #333333;
+    background: url(../img/base.jpg);
+    background-size: 100%, 100%;
+}
+
+header
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 2px 2px rgb(136, 0, 50);
+}
+
+#camera
+{
+    position: relative;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+#base
+{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 5px solid white;
+    margin: 0 auto;
+    border-radius: 60px;
+    background: rgba(76,76,76,1);
+    background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.52);
+}
+
+#franja
+{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 140px;
+    border-top: 9px solid rgba(197, 137, 26, 0.78);
+    border-bottom: 9px solid rgba(197, 137, 26, 0.78);
+    background-color: #845523;
+}
+
+#lente
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 25px solid #B44B37;
+    border-radius: 50%;
+    top: 80px;
+    left: 75px;
+    background-color: #111111;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.52);
+}
+
+#zoom1
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 25px solid #3C3C3C;
+    border-radius: 50%;
+    top: 15px;
+    left: 15px;
+}
+
+#zoom2
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 15px solid #222222;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+}
+
+#zoom3
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 15px solid #161616;
+    border-radius: 50%;
+    top: 55px;
+    left: 55px;
+    background-color: #838383;
+}
+
+#toma
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 80px;;
+    height: 35px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+
+#led
+{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+}
+
+#name a
+{
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(136, 0, 50);
+    -ms-transform: matrix(1, 0.2, 0, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, 0.2, 0, 1, 0, 0); /* Safari */
+    transform: matrix(1, 0.2, 0, 1, 0, 0);
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#video, #canvas
+{
+	display:none;
+}
+
+#marco
+{
+    width: 220px;
+    height: 180px;
+    margin-top: 8px;
+    border-bottom: 40px solid white;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: black;
+    display: none;
+}
