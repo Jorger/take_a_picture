@@ -29,8 +29,8 @@ $(function()
         }
         else
         {
-            var URL = window.URL || window.webkitURL;
-            opcFoto.video.src = URL.createObjectURL(fuente);
+            // var URL = window.URL || window.webkitURL;
+            opcFoto.video.src = window.HTMLMediaElement.srcObject(fuente);
         }
         opcFoto.video.play();
     },
